@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dewata Island</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo"><a href="#home">Bali</a></h1>
+    <nav>
+      <ul>
+        <li><a href="#philosophy">PHILOSOPHY</a></li>
+        <li><a href="#destination">DESTINATION</a></li>
+        <li><a href="#culture">CULTURE</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle">
+      <input type="checkbox">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <main>
+    <div class="content">
+      <div id="home" class="home">
+        <div class="home-content">
+          <div class="title">
+            <h1>DEWATA</h1>
+            <h1>ISLAND</h1>
+          </div>
+          <p>Island of a Thousand Temples</p>
+          <a href="#philosophy"><button class="btn">PHILOSOPHY</button></a>
+        </div>
+      </div>
+
+      <article id="philosophy" class="philosophy">
+        <img src="./assets/img/dewata.png" alt="Dewata">
+        <div class="desc">
+          <div class="text">
+            <h2>PHILOSOPHY</h2>
+            <p>Pulau Bali terkenal dengan julukan sebagai "Pulau Dewata" karena kentalnya budaya Hindu, seperti banyaknya sesaji yang dipersembahkan untuk dewata penjaga di berbagai tempat di Bali.</p>
+          </div>
+          <a href="#destination"><button class="btn">DESTINATION</button></a>
+        </div>
+      </article>
+
+      <article id="destination" class="destination">
+        <h2>POPULAR DESTINATION</h2>
+        <div class="container-cards">
+          <!-- Menggunakan DOM -->
+        </div>
+        <a href="#culture"><button class="btn">CULTURE</button></a>
+      </article>
+
+      <article id="culture" class="culture">
+        <h2>CULTURE</h2>
+        <div class="container-box">
+          <section id="ngaben" class="box">
+            <img src="./assets/img/ngaben-preview.png" alt="ngaben">
+            <p>Ngaben</p>
+          </section>
+          <section id="nyepi" class="box">
+            <img src="./assets/img/nyepi-preview.png" alt="nyepi">
+            <p>Nyepi</p>
+          </section>
+          <section id="ogoh" class="box">
+            <img src="./assets/img/ngerupuk-preview.png" alt="ngerupuk">
+            <p>Ngerupuk</p>
+          </section>
+          <section id="calonarang" class="box">
+            <img src="./assets/img/calonarang-preview.png" alt="calonarang">
+            <p>Calonarang</p>
+          </section>
+        </div>
+
+        <div class="overlay">
+          <section class="description popup">
+            <img src="./assets/img/close-icon.svg" alt="close" class="closeIcon">
+            <img src="./assets/img/ngaben.png" class="img-article">
+            <p>Ngaben adalah upacara pembakaran jenazah umat Hindu di Bali. Upacara ngaben merupakan suatu ritual yang dilaksanakan untuk mengembalikan roh leluhur ke tempat asalnya. Ngaben dalam bahasaBali berkonotasi halus yang sering disebut palebon.
+            </p>
+          </section>
+          <section class="description popup">
+            <img src="./assets/img/close-icon.svg" alt="close" class="closeIcon">
+            <img src="./assets/img/nyepi.png" class="img-article">
+            <p>Nyepi adalah hari suci umat Hindu yang dirayakan setiap Tahun Baru Saka. Hari ini jatuh pada hitungan Tilem Kesanga (IX) yang merupakan hari penyucian dewa-dewa yang berada di pusat samudera yang membawa intisari amerta air hidup. Untuk itu umat Hindu melakukan pemujaan suci terhadap mereka.</p>
+          </section>
+          <section class="description popup">
+            <img src="./assets/img/close-icon.svg" alt="close" class="closeIcon">
+            <img src="./assets/img/ngerupuk.png" class="img-article">
+            <p>Tradisi Ngerupuk adalah hari yang jatuh pada “Tilem Sasih Kesanga” (bulan mati yang ke-9) sehari sebelum Hari Nyepi menurut tanggalan Bali, umat Hindu melaksanakan upacara Bhuta Yadnya di segala tingkatan masyarakat, mulai dari masing-masing keluarga, banjar, desa, kecamatan dan seterusnya, dengan mengambil salah satu dari jenis-jenis caru (semacam sesajian) menurut kemampuannya.</p>
+          </section>
+          <section class="description popup">
+            <img src="./assets/img/close-icon.svg" alt="close" class="closeIcon">
+            <img src="./assets/img/calonarang.png" class="img-article">
+            <p>Calonarang adalah sebuah seni pertunjukan tari yang berasal dari Pulau Bali. Adapun seni pertunjukan Calonarang diperkirakan muncul pada 1825 atau pada zaman Kerajaan Klungkung. Seni tari Calonarang berlatar era Prabu Airlangga (1009-1042) dari Kerajaan Kahuripan di Jawa Timur.</p>
+          </section>
+        </div>
+      </article>
+    </div>
+
+    <aside class="bio">
+      <h2>BIODATA</h2>
+      <div class="bio-content">
+        <div class="bio-text">
+          <section class="text">
+            <p>Nama</p>
+            <p>Zidan Abraham</p>
+          </section>
+          <section class="text">
+            <p>Umur</p>
+            <p>18</p>
+          </section>
+          <section class="text">
+            <p>Asal</p>
+            <p>Denpasar</p>
+          </section>
+          <section class="text">
+            <p>Email</p>
+            <p>zidanabraham07@gmail.com</p>
+          </section>
+        </div>
+        <img src="./assets/img/profile-picture.png" alt="profile-picture">
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Copyright &copy;2022 Zidan Abraham</p>
+  </footer>
+
+  <script src="./assets/script.js"></script>
+</body>
+</html>
