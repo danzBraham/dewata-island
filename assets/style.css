@@ -176,6 +176,7 @@ header.scrolled {
 
 .home {
   padding: 230px 50px;
+  min-height: 100vh;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -234,6 +235,7 @@ header.scrolled {
 /* PHILOSOPHY */
 .philosophy {
   padding: 150px 100px;
+  min-height: 100vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -265,6 +267,7 @@ header.scrolled {
 /* DESTINATION */
 .destination {
   padding: 150px 80px;
+  min-height: 100vh;
   background-color: var(--krem);
   display: flex;
   flex-direction: column;
@@ -522,7 +525,7 @@ body.descPop {
 }
 
 .overlay .popup::-webkit-scrollbar {
-  height: 8px;
+  width: 8px;
 }
 
 .overlay .popup::-webkit-scrollbar-thumb {
@@ -1106,6 +1109,10 @@ footer p {
     top: 70px;
   }
 
+  .philosophy {
+    padding: 80px 50px;
+  }
+
   .destination {
     padding: 85px 40px;
   }
@@ -1127,6 +1134,11 @@ footer p {
   .culture .container-box .box {
     width: 270px;
     height: 162px;
+  }
+
+  .overlay .popup .closeIcon {
+    top: 20px;
+    right: 20px;
   }
 
   .overlay .popup .img-article,
